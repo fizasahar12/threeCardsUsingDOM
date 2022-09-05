@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "regularlexaa";
+  src: url(./Lexend_Deca/static/LexendDeca-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "BoldBig";
+  src: url(./Big_Shoulders_Display/static/BigShouldersDisplay-Bold.ttf);
+  font-weight: 700;
+}
+
+.font-lexa {
+  font-family: "regularlexaa";
+}
+
+.font-Big {
+  font-family: "BoldBig";
+}
+
+* {
+  font-family: "regularlexaa";
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 90%;
+  width: 650px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.Button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.icon1 {
+  width: 50px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+/* @media (max-width: 705px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  .card {
+    padding: 0px;
+  }
+} */
